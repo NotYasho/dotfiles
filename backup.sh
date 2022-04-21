@@ -6,7 +6,7 @@ cp -f $HOME/.bashrc .
 cp -f $HOME/.zsh_history .
 cp -f $HOME/.bash_history .
 cp -f $HOME/.oh-my-zsh/themes/agnoster.zsh-theme ./.oh-my-zsh/themes/
-cp -f $HOME/.zsh/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh ./.zsh/zsh-syntax-highlighting/highlighters/mainhighlighters/main
+cp -f $HOME/.zsh/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh ./.zsh/zsh-syntax-highlighting/highlighters/main
 cp -f $HOME/.nanorc .
 cp -f $HOME/.config/plasmarc ./.config/
 cp -f $HOME/.config/konsolerc ./.config/
