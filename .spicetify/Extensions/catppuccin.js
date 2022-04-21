@@ -1,0 +1,1 @@
+/home/notyasho/.spicetify//Themes/catppuccin/catppuccin.js
