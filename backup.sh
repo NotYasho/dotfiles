@@ -40,5 +40,4 @@ if [[ $gs == *"modified"* ]]; then
   notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic"
 else
     echo -e "\e[32mNo changes to commit\e[0m"
-    notify-send "Sync Complete ✔" "\nNo changes to commit." -t 2000 -a "config-backup" -i "sync-synchronizing-symbolic"
 fi
