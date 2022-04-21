@@ -30,7 +30,7 @@ cp -f -r $HOME/.config/plasma-workspace/ ./.config/
 gs="$(git status | grep -i "modified")"
 # echo "${gs}"
 
-# If there is a new change
+# If there is a new change push it, else print "No changes to commit"
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing to Github\e[0m"
   git add .;
@@ -38,7 +38,7 @@ if [[ $gs == *"modified"* ]]; then
   git push origin master
   echo -e "\e[32mBackup complete\e[0m" 
   notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic"
-fi
-else 
-  echo -e "\e[31mNo changes to push\e[0m"
+else
+    echo -e "\e[32mNo changes to commit\e[0m"
+    notify-send "Sync Complete ✔" "\nNo changes to commit." -t 2000 -a "config-backup" -i "sync-synchronizing-symbolic"
 fi
