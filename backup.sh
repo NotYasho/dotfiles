@@ -36,8 +36,9 @@ if [[ $gs == *"modified"* ]]; then
   git add .;
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
   git push origin master
+  echo -e "\e[32mBackup complete\e[0m" 
+  notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic"
 fi
-
-echo -e "\e[32mBackup complete\e[0m"
-
-notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic"
+else 
+  echo -e "\e[31mNo changes to push\e[0m"
+fi
