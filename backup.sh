@@ -33,13 +33,10 @@ gs="$(git status | grep -i "modified")"
 # If there is a new change
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing to Github\e[0m"
+  git add .;
+  git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
+  git push origin master
 fi
-
-
-# push to Github
-git add .;
-git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
-git push origin master
 
 echo -e "\e[32mBackup complete\e[0m"
 
