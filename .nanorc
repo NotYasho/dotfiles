@@ -3,7 +3,7 @@ include /usr/share/nano-syntax-highlighting/*.nanorc
 set linenumbers
 set tabsize 4
 set numbercolor brightblack
-set titlecolor white,brightmagenta
+set titlecolor brightwhite,brightmagenta
 set statuscolor white,brightmagenta
 set functioncolor white
 set keycolor "magenta"
