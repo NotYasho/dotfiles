@@ -10,6 +10,7 @@ cp -f $HOME/.config/plasmarc ./.config/
 cp -f $HOME/.config/konsolerc ./.config/
 cp -f $HOME/.config/lattedockrc ./.config/
 # copy directories
+cp -f -r $HOME/Pictures/Icons ./Pictures/Icons
 cp -f -r $HOME/.kde4/ .
 cp -f -r $HOME/.spicetify/ .
 cp -f -r $HOME/.config/neofetch/ ./.config/
