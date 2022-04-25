@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# copy other dot files
 cp -f $HOME/.zshrc .
 cp -f $HOME/.bashrc .
 cp -f $HOME/.oh-my-zsh/themes/agnoster.zsh-theme ./.oh-my-zsh/themes/
@@ -10,7 +9,6 @@ cp -f $HOME/.config/plasmarc ./.config/
 cp -f $HOME/.config/konsolerc ./.config/
 cp -f $HOME/.config/lattedockrc ./.config/
 
-# copy directories
 cp -f -r $HOME/Pictures/Icons ./Pictures/
 cp -f -r $HOME/.kde4/ .
 cp -f -r $HOME/.spicetify/ .
@@ -26,9 +24,7 @@ cp -f -r $HOME/.config/kde.org/ ./.config/
 cp -f -r $HOME/.config/plasma-workspace/ ./.config/
 
 
-# Check git status
 gs="$(git status | grep -i "modified")"
-# echo "${gs}"
 
 # If there is a new change push it, else print "No changes to commit"
 if [[ $gs == *"modified"* ]]; then
