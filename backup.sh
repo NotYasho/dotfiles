@@ -36,7 +36,6 @@ if [[ $gs == *"modified"* ]]; then
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
   git push origin master
   echo -e "\e[32mBackup complete\e[0m" 
-  eval "export $(egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME xfce4-session)/environ)"; notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic"
 else
     echo -e "\e[32mNo changes to commit\e[0m"
 fi
