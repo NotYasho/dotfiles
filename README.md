@@ -1,4 +1,4 @@
-# dotfiles
+# KDE Plasma Dotfiles
 
 ### Theme
 
