@@ -2,7 +2,7 @@
 
 ### Theme
 
-- Window Decorations: [Sweet](https://store.kde.org/p/1294174)
+- Window Decorations: [Sweet Dark Transparent](https://store.kde.org/p/1294174)
 - Colors: [Sweet](https://store.kde.org/p/1294174)
 - Font: Primary - Segoe UI, Monospace - Jetbrains Mono
 - Terminal Font: Hack Nerd Font
