@@ -8,9 +8,9 @@
 - Terminal Font: Hack Nerd Font
 - Icons: [Fluent Dark](https://store.kde.org/p/1280231)
 - Cursor: [Sweet-cursors](https://store.kde.org/p/1393084/)
-- [Wallpapers](https://imgur.com/a/jYjd4Pe)
 - VSCode Theme: [Ocean High Contrast](https://marketplace.visualstudio.com/items?itemName=NotYasho.ocean-high-contrast)
 - Firefox Theme: [Tokyo Night Purple](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-purple/)
+- Firefox New Tab: [NightTab](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
 
 ### Applications
 
@@ -22,10 +22,7 @@
 
 ### Kwin Scripts
 - Force Blur
-- Tile Gaps
+- [Grid-Tiling](https://github.com/lingtjien/Grid-Tiling-Kwin)
 
-![](Screenshots/desktop.webp)
-![](Screenshots/logout.png)
+![](Screenshots/desktop.png)
 ![](Screenshots/workflow.png)
-
-*thank you for all the upvotes on reddit ​<3*
