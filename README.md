@@ -6,7 +6,7 @@
 - Colors: [Sweet](https://store.kde.org/p/1294174)
 - Font: Primary - Segoe UI, Monospace - Jetbrains Mono
 - Terminal Font: Hack Nerd Font
-- Icons: [Fluent Dark](https://store.kde.org/p/1280231)
+- Icons: [Fluent Dark](https://store.kde.org/p/1477945/)
 - Cursor: [Sweet-cursors](https://store.kde.org/p/1393084/)
 - VSCode Theme: [Ocean High Contrast](https://marketplace.visualstudio.com/items?itemName=NotYasho.ocean-high-contrast)
 - Firefox Theme: [Tokyo Night Purple](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-purple/)
