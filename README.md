@@ -1,8 +1,13 @@
-# dotfiles
+# KDE Plasma Dotfiles
 
 ### Theme
+<<<<<<< HEAD
  
 - Window Decorations: [Sweet](https://store.kde.org/p/1294174)
+=======
+
+- Window Decorations: [Sweet Dark Transparent](https://store.kde.org/p/1294174)
+>>>>>>> bf973592fb64e62dcf377bc1f9b97768d35d6402
 - Colors: [Sweet](https://store.kde.org/p/1294174)
 - Font: Primary - Segoe UI, Monospace - Jetbrains Mono
 - Terminal Font: Hack Nerd Font
