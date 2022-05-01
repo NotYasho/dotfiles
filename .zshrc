@@ -141,3 +141,35 @@ export PATH="$PATH:$HOME/bin/:/usr/lib/jvm/java-17-openjdk/bin:$HOME/.local/shar
 eval $(thefuck --alias)
 
 export EDITOR=nano
+
+
+# Function to search for a file in a directory
+# Usage: search <file> <directory>
+# If no directory is specified, the current directory is used
+
+function search() {
+  local file="$1"
+  local dir="${2:-.}"
+  local found=0
+  local result=''
+
+  if [[ -f "$file" ]]; then
+	result="$file"
+	found=1
+  fi
+
+  for f in "$dir"/*; do
+	if [[ -f "$f" ]]; then
+	  if [[ "$f" == *"$file"* ]]; then
+		result="$f"
+		found=1
+	  fi
+	fi
+  done
+
+  if [[ $found -eq 1 ]]; then
+	echo "$result"
+  else
+	echo "File not found"
+  fi
+}
