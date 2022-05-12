@@ -30,23 +30,23 @@ gs="$(git status | grep -i "modified")"
 # If there is a new change push it, else print "No changes to commit"
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing files to Github\e[0m"
-  echo "`date +'%Y-%m-%d %H:%M:%S'`" >> ./log.log
-  echo "===============================" >> ./log.log
-  git add . &>> ./log.log
-  git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./log.log
-  git push origin master &>> ./log.log
+  echo "`date +'%Y-%m-%d %H:%M:%S'`" >> ./.log
+  echo "===============================" >> ./.log
+  git add . &>> ./.log
+  git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./.log
+  git push origin master &>> ./.log
 
   if [ $? -eq 0 ]; then
-    echo -e "\nSUCCESS" >> ./log.log
-    echo -e "===============================\n" >> ./log.log
+    echo -e "\nSUCCESS" >> ./.log
+    echo -e "===============================\n" >> ./.log
     echo -e "\e[32mBackup complete\e[0m" 
     notify-send "Sync Complete ✔" "\nSUCCESS: Pushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic" 
   else 
-    echo -e "\nERROR" >> ./log.log
-    echo -e "===============================\n" >> ./log.log
+    echo -e "\nERROR" >> ./.log
+    echo -e "===============================\n" >> ./.log
     echo -e "\e[31mERROR: Failed to push files to Github Repository.\e[0m"
-    echo -e "\e[33mINFO: Check log.log for more information.\e[0m"
-    notify-send "Sync Failed ✘" "\nAn error occurred. Check the log.log file for more info." -t 5000 -a "config-backup" -i "computer-fail-symbolic"
+    echo -e "\e[33mINFO: Check .log for more information.\e[0m"
+    notify-send "Sync Failed ✘" "\nAn error occurred. Check the .log file for more info." -t 5000 -a "config-backup" -i "computer-fail-symbolic"
   fi
 
 else

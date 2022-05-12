@@ -133,6 +133,7 @@ alias pip="pip3"
 alias spice="spicetify"
 alias panes="colorpanes"
 alias rm="rm -i"
+alias backup="cd ~/backup/dotfiles && ./backup.sh && cd -"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/notyasho/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
