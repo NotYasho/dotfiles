@@ -30,13 +30,15 @@ gs="$(git status | grep -i "modified")"
 # If there is a new change push it, else print "No changes to commit"
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing files to Github\e[0m"
-  git add . &> ./log.txt
+  echo "==============================="
+  echo "`date +'%Y-%m-%d %H:%M:%S'`"
+  git add . &&> ./log.txt
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./log.txt
   git push origin master &>> ./log.txt
+  echo "==============================="
   return 1
 
   if [ $? -eq 0 ]; then
-    rm -rf ./log.txt
     echo -e "\e[32mBackup complete\e[0m" 
     notify-send "Sync Complete ✔" "\nSUCCESS: Pushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic" 
   else 
