@@ -1,2 +1,13 @@
 2022-05-12 18:07:04
 ===============================
+[master 7dd0271] New backup 2022-05-12 18:07:04
+ 1 file changed, 2 insertions(+), 31 deletions(-)
+ rewrite log.log (96%)
+To https://github.com/NotYasho/dotfiles.git
+   1e739f1..7dd0271  master -> master
+
+ERROR
+===============================
+
+2022-05-12 18:07:24
+----------------------------------------------------
