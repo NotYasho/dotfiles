@@ -31,7 +31,7 @@ gs="$(git status | grep -i "modified")"
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing files to Github\e[0m"
   echo "===============================" >> ./log.txt
-  echo "`date +'%Y-%m-%d %H:%M:%S'`"
+  echo "`date +'%Y-%m-%d %H:%M:%S'`" >> ./log.txt
   git add . &>> ./log.txt
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./log.txt
   git push origin master &>> ./log.txt
