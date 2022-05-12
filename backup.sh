@@ -33,10 +33,10 @@ if [[ $gs == *"modified"* ]]; then
   git add .;
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
   git push origin master  
+  return 1
   if [ $? -eq 0 ]; then
     echo -e "\e[32mBackup complete\e[0m" 
     notify-send "Sync Complete ✔" "\nPushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic" 
-    amogus
   else 
     echo "\e[31mAn ERROR occured while trying to push files to github"
     notify-send "Sync Failed ✘" "An error occurred while trying to push files to Github." -t 5000 -a "config-backup" -i "computer-fail-symbolic"
