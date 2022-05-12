@@ -32,14 +32,16 @@ if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing files to Github\e[0m"
   git add .;
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
-  git push origin master  
+  git push origin master >> ./log.txt
   return 1
   if [ $? -eq 0 ]; then
+    rm -rf ./log.txt
     echo -e "\e[32mBackup complete\e[0m" 
     notify-send "Sync Complete ✔" "\nSUCCESS: Pushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic" 
   else 
     echo -e "\e[31mERROR: Failed to push files to Github Repository.\e[0m"
-    notify-send "Sync Failed ✘" "\nAn error occurred while trying to push files to Github." -t 5000 -a "config-backup" -i "computer-fail-symbolic"
+    echo -e "\e[33mINFO: Check log.txt for more information.\e[0m"
+    notify-send "Sync Failed ✘" "\nAn error occurred. Check the log.txt file for more info." -t 5000 -a "config-backup" -i "computer-fail-symbolic"
   fi
 
 else
