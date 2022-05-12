@@ -1,5 +1,1 @@
-[master e6561e3] New backup 2022-05-12 17:59:56
- 2 files changed, 6 insertions(+), 5 deletions(-)
-To https://github.com/NotYasho/dotfiles.git
-   fa15b08..e6561e3  master -> master
 ===============================
