@@ -11,6 +11,7 @@ cp -f $HOME/.config/plasmarc ./.config/
 cp -f $HOME/.config/konsolerc ./.config/
 cp -f $HOME/.config/lattedockrc ./.config/
 
+cp -f -r $HOME/.config/spicetify ./.config/
 cp -f -r $HOME/Pictures/Icons ./Pictures/
 cp -f -r $HOME/.kde4/ .
 cp -f -r $HOME/.spicetify/ .
