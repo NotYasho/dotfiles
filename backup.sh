@@ -35,7 +35,7 @@ if [[ $gs == *"modified"* ]]; then
   git add . &>> ./log.txt
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./log.txt
   git push origin master &>> ./log.txt
-  echo "===============================" ./log.txt
+  echo "===============================" >> ./log.txt
   return 1
 
   if [ $? -eq 0 ]; then
