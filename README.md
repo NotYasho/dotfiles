@@ -1,13 +1,12 @@
 # KDE Plasma Dotfiles
 
+**Note: This backup is automated with a shell script running on crontob** *Nothing, just wanted to flex*
+
 ### Theme
-<<<<<<< HEAD
  
 - Window Decorations: [Sweet](https://store.kde.org/p/1294174)
-=======
 
 - Window Decorations: [Sweet Dark Transparent](https://store.kde.org/p/1294174)
->>>>>>> bf973592fb64e62dcf377bc1f9b97768d35d6402
 - Colors: [Sweet](https://store.kde.org/p/1294174)
 - Font: Primary - Segoe UI, Monospace - Jetbrains Mono
 - Terminal Font: Hack Nerd Font
