@@ -33,7 +33,6 @@ if [[ $gs == *"modified"* ]]; then
   git add .;
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
   git push origin master 2>&1 | tee ./log.txt
-  return 1
   if [ $? -eq 0 ]; then
     rm -rf ./log.txt
     echo -e "\e[32mBackup complete\e[0m" 
