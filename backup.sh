@@ -30,7 +30,7 @@ gs="$(git status | grep -i "modified")"
 # If there is a new change push it, else print "No changes to commit"
 if [[ $gs == *"modified"* ]]; then
   echo -e "\e[36mPushing files to Github\e[0m"
-  echo "\n`date +'%Y-%m-%d %H:%M:%S'`" >> ./log.txt
+  echo -e "\n`date +'%Y-%m-%d %H:%M:%S'`" >> ./log.txt
   echo "===============================" >> ./log.txt
   git add . &>> ./log.txt
   git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`" &>> ./log.txt
