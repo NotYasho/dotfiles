@@ -43,7 +43,7 @@ if [[ $gs == *"modified"* ]]; then
     echo -e "\e[32mBackup complete\e[0m" 
     notify-send "Sync Complete ✔" "\nSUCCESS: Pushed config files to Github Repository." -t 5000 -a "config-backup" -i "sync-synchronizing-symbolic" 
   else 
-    echo -e "\nFAILED" >> ./log.log
+    echo -e "\nERROR" >> ./log.log
     echo -e "===============================\n" >> ./log.log
     echo -e "\e[31mERROR: Failed to push files to Github Repository.\e[0m"
     echo -e "\e[33mINFO: Check log.log for more information.\e[0m"
