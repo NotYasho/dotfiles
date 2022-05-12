@@ -124,6 +124,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export EDITOR="nano"
+
 alias cmatrix="unimatrix -c magenta -s=96 -f"
 alias cls="clear"
 alias clock="tty-clock -c -C 5 -t"
@@ -134,10 +136,11 @@ alias spice="spicetify"
 alias panes="colorpanes"
 alias rm="rm -i"
 alias backup="cd ~/backup/dotfiles; ./backup.sh; cd -"
+alias backuplog="tail ~/backup/dotfiles/.log | ccze -A"
+alias zshrc="$EDITOR ~/.zshrc"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/notyasho/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="$PATH:$HOME/bin/:/usr/lib/jvm/java-17-openjdk/bin:$HOME/.local/share/gem/ruby/3.0.0/bin:$HOME/.spicetify"
-export EDITOR=nano
 eval $(thefuck --alias)
