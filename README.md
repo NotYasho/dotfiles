@@ -1,6 +1,6 @@
 # KDE Plasma Dotfiles
 
-**Note: This backup is automated with a shell script running on crontob** *Nothing, just wanted to flex*
+**Note: This backup is automated with a shell script running on crontab** *Nothing, just wanted to flex*
 
 ### Theme
  
