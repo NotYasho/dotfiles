@@ -135,7 +135,7 @@ alias pip="pip3"
 alias spice="spicetify"
 alias panes="colorpanes"
 alias rm="rm -i"
-alias backup="cd ~/backup/dotfiles; ./backup.sh; cd -"
+alias backup="~/backup/dotfiles/autobackup"
 alias backuplog="tail ~/backup/dotfiles/.log | ccze -A"
 alias zshrc="$EDITOR ~/.zshrc"
 
