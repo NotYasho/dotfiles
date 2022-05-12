@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 cp -f $HOME/.zshrc .
 cp -f $HOME/.bashrc .
 cp -f $HOME/.oh-my-zsh/themes/agnoster.zsh-theme ./.oh-my-zsh/themes/
@@ -52,3 +54,5 @@ if [[ $gs == *"modified"* ]]; then
 else
     echo -e "\e[32mNo changes to commit\e[0m"
 fi
+
+cd - > /dev/null
