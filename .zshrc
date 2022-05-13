@@ -144,3 +144,4 @@ source /home/notyasho/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export PATH="$PATH:$HOME/bin/:/usr/lib/jvm/java-17-openjdk/bin:$HOME/.local/share/gem/ruby/3.0.0/bin:$HOME/.spicetify"
 eval $(thefuck --alias)
+export PATH=$PATH:/home/notyasho/.spicetify
