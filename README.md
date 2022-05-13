@@ -78,3 +78,5 @@ konsave -a "Sweet-Dark-KDE"
 
 - Force Blur
 - [Grid-Tiling](https://github.com/lingtjien/Grid-Tiling-Kwin)
+
+---
