@@ -89,7 +89,11 @@ Color=216,222,233
 Color=216,222,233
 
 [General]
-Blur=true
+Anchor=0.5,0.5
+Blur=false
+ColorRandomization=false
 Description=Nordic
+FillStyle=Tile
 Opacity=0.75
 Wallpaper=
+WallpaperOpacity=1

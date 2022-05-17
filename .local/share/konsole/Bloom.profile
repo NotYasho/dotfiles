@@ -5,6 +5,7 @@ ColorScheme=Bloom
 DimmValue=45
 Font=Hack,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
+UseFontLineChararacters=false
 
 [Cursor Options]
 CursorShape=1
