@@ -138,6 +138,7 @@ alias rm="rm -i"
 alias backup="~/backup/dotfiles/backup.sh"
 alias backuplog="tail ~/backup/dotfiles/.log | ccze -A"
 alias zshrc="$EDITOR ~/.zshrc"
+alias pacman="sudo pacman"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/notyasho/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -14,7 +14,7 @@ RandomHueRange=360
 RandomSaturationRange=100
 
 [Color0]
-Color=53,53,65
+Color=64,64,79
 
 [Color0Faint]
 Color=118,113,130
@@ -101,8 +101,11 @@ RandomHueRange=360
 RandomSaturationRange=100
 
 [General]
+Anchor=0.5,0.5
 Blur=false
 ColorRandomization=false
 Description=Bloom
+FillStyle=Tile
 Opacity=0.82
 Wallpaper=
+WallpaperOpacity=1
