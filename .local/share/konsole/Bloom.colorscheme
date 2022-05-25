@@ -14,7 +14,7 @@ RandomHueRange=360
 RandomSaturationRange=100
 
 [Color0]
-Color=64,64,79
+Color=60,60,74
 
 [Color0Faint]
 Color=118,113,130

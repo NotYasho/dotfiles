@@ -2,15 +2,15 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=Bloom
-DimmValue=45
+DimmValue=24
 Font=Hack,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
 UseFontLineChararacters=false
 
 [Cursor Options]
 CursorShape=1
-CustomCursorColor=190,181,255
-CustomCursorTextColor=213,196,255
+CustomCursorColor=172,166,255
+CustomCursorTextColor=93,0,255
 UseCustomCursorColor=true
 
 [Encoding Options]
