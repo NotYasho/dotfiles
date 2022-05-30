@@ -1,6 +1,3 @@
-# Bloom - A Windows Terminal Theme
-Bloom is a color theme for Windows Terminal based on bright vibrant colors :D
-
 Add this to your `settings.json` file of your Windows Terminal to set this as your default theme
 ```json
 "profiles": {
