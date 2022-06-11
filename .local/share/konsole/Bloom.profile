@@ -1,9 +1,9 @@
 [Appearance]
 AntiAliasFonts=true
-BoldIntense=true
+BoldIntense=false
 ColorScheme=Bloom
 DimmValue=24
-Font=Hack,11,-1,5,50,0,0,0,0,0
+Font=Hack Nerd Font,11,-1,5,50,0,0,0,0,0
 LineSpacing=0
 UseFontLineChararacters=false
 

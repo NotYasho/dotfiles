@@ -89,8 +89,11 @@ Color=223,222,241
 Color=223,222,241
 
 [General]
+Anchor=0.5,0.5
 Blur=false
 ColorRandomization=false
 Description=Catppuccin
-Opacity=0.75
+FillStyle=Tile
+Opacity=0.86
 Wallpaper=
+WallpaperOpacity=1
