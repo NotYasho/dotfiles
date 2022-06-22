@@ -55,6 +55,8 @@ alias py="python3"
 alias pip="pip3"
 
 # other aliases
+alias del="trash"
+alias ls-bin="trash-list"
 alias backup="~/backup/dotfiles/backup.sh"
 alias backuplog="tail ~/backup/dotfiles/.log | ccze -A"
 alias pacman="sudo pacman"
