@@ -38,6 +38,7 @@ typeset -aHg AGNOSTER_PROMPT_SEGMENTS=(
 
 ACCENT='magenta'
 CURRENT_BG='NONE'
+PRIMARY_FG="black"
 if [[ -z "$PRIMARY_FG" ]]; then
 	PRIMARY_FG=black
 fi
