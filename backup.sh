@@ -25,6 +25,7 @@ cp -f -r $HOME/.config/gtk-4.0 ./.config/
 cp -f -r $HOME/.config/latte/ ./.config/
 cp -f -r $HOME/.config/kde.org/ ./.config/
 cp -f -r $HOME/.config/plasma-workspace/ ./.config/
+cp -f -r $HOME/.local/share/plasma/plasmoids/org.kde.plasma.notes ./.config
 cp -f -r "$HOME/.local/share/konsole" ./.local/share/
 
 
