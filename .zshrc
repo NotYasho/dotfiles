@@ -50,12 +50,10 @@ alias panes="colorpanes"
 alias cls="clear"
 
 # python aliases
-alias python="python3"
-alias py="python3"
-alias pip="pip3"
+alias py="python"
 
 # other aliases
-alias del="trash"
+alias bin="trash"
 alias ls-bin="trash-list"
 alias backup="~/backup/dotfiles/backup.sh"
 alias backuplog="tail ~/backup/dotfiles/.log | ccze -A"
@@ -80,3 +78,8 @@ export HISTCONTROL=ignoreboth:erasedups
 if [[ "$TERM_PROGRAM" == "vscode" ]]; then
 	alias ls="ls --color=auto"
 fi
+
+# Bun
+export BUN_INSTALL="/home/notyasho/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export OPENBLAS_CORETYPE=ARMV8
